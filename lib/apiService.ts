@@ -1,5 +1,5 @@
 // API service for connecting to the backend
-const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8000/api/v1';
+const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || 'https://flight-schedule-optimizer-qlnr.onrender.com/api/v1';
 
 export const apiService = {
   async getFlights() {
