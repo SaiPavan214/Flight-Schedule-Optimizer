@@ -25,7 +25,8 @@ class Settings(BaseSettings):
     
     # CORS
     allowed_origins: List[str] = [
-        "https://flight-schedule-optimizer.vercel.app/"
+        "https://flight-schedule-optimizer.vercel.app",
+        "http://localhost:3000",  # Add localhost for development
     ]
     
     class Config:
