@@ -38,7 +38,7 @@ const RunwayChart = () => {
       },
       tooltip: {
         callbacks: {
-          label: (context) => `${context.dataset.label}: ${context.raw}`,
+          label: (context: any) => `${context.dataset.label}: ${context.raw}`,
         },
       },
     },
